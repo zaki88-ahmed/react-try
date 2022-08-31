@@ -1,9 +1,8 @@
 import React, { Component }  from 'react';
 // import logoImage from './Images/logo.png';
-// import logoImage from '../Images/logo.png';
-import LogoImage from '../Images/logo.png';
+// import logoImage from './logo.png';
 
-class Navbar extends Component{
+class Counter extends Component{
   render(){
 
 	return <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -18,7 +17,7 @@ class Navbar extends Component{
 		 </button>
 
 		 <a class="navbar-brand scroll" href="#Home">
-			 <img class="brand_logo" src={LogoImage} alt="Coder Bits Freelance Web Developer"/>
+			 <img class="brand_logo" src="" alt="Coder Bits Freelance Web Developer"/>
 			 <span class="brand_title">CODER.BITS</span>
 		 </a>
 	 </div>
@@ -38,4 +37,4 @@ class Navbar extends Component{
   }
 }
 
-export default Navbar;
+export default Counter;

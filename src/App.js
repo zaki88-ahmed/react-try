@@ -1,9 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import { Component }  from 'react';
-import { Component }  from 'react';
+// import logo from './logo.svg';
+
+import React, { Component }  from 'react';
 // import Home from './component/Home';
-import Nav from './component/Navbar';
+import Navbar from './component/Navbar';
+import Banner from './component/Banner';
+import Counter from './component/Counter';
+import CopyRight from './component/Copyright';
+import Footer from './component/Footer';
+import About from './component/About';
+// import logoImage from './Images/logo.jpg';
 
 // import Contactus from './component/Contactus';
 
@@ -11,7 +16,13 @@ class App extends Component{
   render(){
 
       return <div>
-        <Nav/>
+        <Navbar/>
+        <Banner/>
+        <About/>
+        <Counter/>
+        <Footer/>
+        <CopyRight/>
+        
       </div>
 
   }
